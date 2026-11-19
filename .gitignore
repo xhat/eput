@@ -1,0 +1,54 @@
+# ── 构建产物 ────────────────────────────────
+.build/
+build/
+DerivedData/
+*.app
+*.dSYM/
+*.icns
+*.iconset/
+*.dmg
+*.pkg
+*.zip
+docs/
+scripts/
+.signing/
+output/
+
+# ── SwiftPM / Xcode ────────────────────────────
+.swiftpm/
+Package.resolved
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcuserstate
+
+# ── 密钥与本地配置（API Key 等绝不能提交）──────
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.mobileprovision
+secrets.*
+*.secret
+*.local.json
+
+# ── 本机运行产生的数据（历史记录、用量统计等）───
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.db
+
+# ── 系统与编辑器杂项 ───────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+.Trashes
+.idea/
+.vscode/
+.cursor/
+*.swp
+*~
+*.log
+
+AGENTS.md
